@@ -50,10 +50,11 @@ nav a {
 /*home page*/
 .main-content {
     width: 1000px;
-    height: 300px;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 100px;
+    padding-top: 10px;
     margin-bottom: 50px;
     display:flex;
     align-items: center;
@@ -194,6 +195,20 @@ nav a {
     align-items: center;
     display: flex;
 }
+
+@media screen and (max-width:800px){
+    .highlights-content{
+        display:inline;
+    }
+}
+
+@media screen and (max-width:800px){
+    .main-content{
+        display: inline;
+    }
+
+}
+
 
 .my-image-1{
     display: block;
