@@ -10,7 +10,7 @@ body {
 header {
     width: 100%;
     background-image: linear-gradient(rgba(63, 50, 160, 0.395),rgba(128, 225, 240, 0.454)),url(images/cover.png);
-    background-size: cover;
+    background-size:cover;
     background-position:center;
 }
 
@@ -331,7 +331,64 @@ nav a {
 /* Gallary page code*/
 
 
+.main-content-gallery{
+    margin-top: 20px;
+    display: block;
+}
 
+.gallery-image-three{
+    display: flex;
+    margin: 10px;
+}
+
+
+.gallery-image-one{
+    width: 500px;
+    height: 280px;
+    background-size: 500px;
+    margin: 10px;
+    background-position: center;
+}
+
+.gallery-image-one-different-size{
+    width: 500px;
+    height: 230px;
+    background-size: 500px;
+    margin: 10px;
+    background-position: center;
+}
+
+.image-content{
+    display: none;
+    padding-left: 10px;
+    margin-bottom: 0px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+.gallery-image-one:hover{
+    cursor: pointer;
+    filter:opacity(80%);
+}
+
+.gallery-image-one:hover .image-content{
+    display: block;
+    background-color: #000000;
+}
+
+
+.gallery-image-one-different-size:hover{
+    cursor: pointer;
+    filter:opacity(80%);
+}
+
+.gallery-image-one-different-size:hover .image-content{
+    display: block;
+    margin-top: 230px;
+    background-color: #000000;
+}
 
 
 /*footer code*/
