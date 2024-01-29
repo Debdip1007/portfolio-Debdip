@@ -9,7 +9,7 @@ body {
 
 header {
     width: 100%;
-    background-image: linear-gradient(rgba(62, 50, 160, 0.65),rgba(141, 128, 240, 0.65)),url(images/cover.png);
+    background-image: linear-gradient(rgba(63, 50, 160, 0.395),rgba(128, 225, 240, 0.454)),url(images/cover.png);
     background-size: cover;
     background-position:center;
 }
@@ -47,13 +47,28 @@ nav a {
 
 }
 
+.brand-logo{
+    width: 120px;
+    margin: 10px;
+    height: 35px;
+    cursor: pointer;
+
+}
+.brand-logo-2{
+    width: 50px;
+    margin: 10px;
+    height: 50px;
+    cursor: pointer;
+
+}
+
 /*home page*/
 .main-content {
     width: 1000px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 50px;
     padding-top: 10px;
     margin-bottom: 50px;
     display:flex;
@@ -116,37 +131,27 @@ nav a {
 .my-image{
     display: block;
     border-radius: 50%;
-    width: 260px;
-    height: 260px;
+    width: 320px;
+    height: 320px;
     box-shadow: 10px 10px 50px 0 turquoise;
 }
 
-.main-content:hover .my-image{
-    width: 320px;
-    height: 320px;
-    transition: all 1s;
-}
 
 
 
 
 .introduction{
-    width: 500px;
+    width: 550px;
     height: 250px;
     padding-left: 10px ;
     margin-left: auto;
     margin-right: auto;
+    font-size: 18px;
     padding-right: 10px ;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.main-content:hover .introduction{
-    width: 530px;
-    height: auto;
-    font-size: 110%;
-    text-align: justify;
-    transition: all 0.001s;
-}
+
 
 
 /*publication page code*/
@@ -175,7 +180,7 @@ nav a {
 
 
 .main-content-highlight {
-    width: 1100px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
@@ -186,7 +191,7 @@ nav a {
 }
 
 .highlights-content{
-    width: 70%;
+    width: 80%;
     height: auto;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -215,12 +220,12 @@ nav a {
     margin-left: auto;
     margin-right: auto;
     border-radius: 20%;
-    width: 270px;
-    height: 270px;
+    width: 280px;
+    height: 280px;
 }
 
 .content{
-    width: 675px;
+    width: 800px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -252,7 +257,7 @@ nav a {
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 20px;
-    display: none;
+    
     text-align:justify;
 }
 
