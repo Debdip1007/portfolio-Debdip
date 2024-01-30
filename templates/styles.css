@@ -9,7 +9,7 @@ body {
 
 header {
     width: 100%;
-    background-image: linear-gradient(rgba(63, 50, 160, 0.395),rgba(128, 225, 240, 0.454)),url(images/cover.png);
+    background-image: linear-gradient(rgba(255, 0, 0, 0.847),rgb(49, 9, 9));
     background-size:cover;
     background-position:center;
 }
@@ -54,8 +54,8 @@ nav a {
 .menu-hover:hover{
     width: 100px;
     background-color: #000000;
-    transition: all 1s;
-    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.664);
+    transition: all 0.5s;
+    box-shadow: 3px 3px 10px 5px rgba(255, 255, 255, 0.785);
 }
 
 
